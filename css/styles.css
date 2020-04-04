@@ -43,7 +43,7 @@ p {
 .btn {
   display: inline-block;
   font-size: 18px;
-  color: #fff;
+  color:#fff;
   background: #A4B97D;
   padding: 13px 20px;
   border-radius: 3px;
@@ -52,7 +52,7 @@ p {
 }
 
 .btn:hover {
-  background: #fff;
+  background: #ddd;
   color: #A4B97D;
 }
 
@@ -226,6 +226,34 @@ p {
   margin-right: 20px;
   border-radius: 50%;
 
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #A4B97D;
 }
 
 /* Footer */
