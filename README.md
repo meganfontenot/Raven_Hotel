@@ -5,6 +5,6 @@
 
 
 
-## Copyright and License:
+## Copyright and License
 
 Code released under the MIT license.
